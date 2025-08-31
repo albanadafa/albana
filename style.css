@@ -13,7 +13,7 @@ ul { list-style: none; }
 header {
   position: fixed;
   top: 0; left: 0; right: 0;
-  padding: 15px 7.5vw;
+  padding: 15px 7vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,14 +25,14 @@ header {
   -webkit-backdrop-filter: blur(5px); /* untuk Safari */
   
 }
-header .logo { font-size: 1em; font-weight: bold; }
+header .logo { font-size: 10px; font-weight: bold; }
 header .logo span { color: #d30000; }
 header nav ul { display: flex; gap: 20px; }
 header nav a { transition: opacity .5s; }
 header nav a:hover { opacity: 0.5; }
 
 nav ul li a {
-  font-size: 0.75em; /* ubah angka sesuai ukuran yang diinginkan */
+  font-size: 10px; /* ubah angka sesuai ukuran yang diinginkan */
   color: #ffffff;
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
   height: 125vh;
   display: flex;
   align-items: center;
-  padding: 7.5vw;
+  padding: 7vw;
   overflow: hidden;
 }
 .hero .bg-video {
@@ -77,7 +77,7 @@ nav ul li a {
 .cta {
   font-size: 10px;
   display: inline-block;
-  padding: 7.5px 7.5px;
+  padding: 7.5px 7px;
   background: #d30000;
   color: #fff;
   border-radius: 5px;
@@ -86,7 +86,7 @@ nav ul li a {
 .cta:hover { background: rgba(0, 0, 0, 0.2); }
 
 /* Work Section */
-section { padding: 100px 8vw; }
+section { padding: 100px 7vw; }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -106,7 +106,7 @@ section { padding: 100px 8vw; }
 
 .work {
   position: relative;
-  padding: 100px 8vw;
+  padding: 100px 7vw;
   color: #ffffff;
   overflow: hidden;
 }
@@ -182,7 +182,7 @@ section { padding: 100px 8vw; }
 /* Footer */
 footer {
   text-align: center;
-  padding: 40px 8vw;
+  padding: 40px 7vw;
   background: #000;
   font-size: 10px;
   color: #ffffff;
